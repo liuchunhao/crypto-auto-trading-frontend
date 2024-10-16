@@ -1,0 +1,32 @@
+.loginbox {
+    // 覆蓋 antd 的樣式
+    .ant-input, .ant-input-password {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0);
+        border-color: #1890ff;
+        height: 38px;
+
+        // text-placeholder
+        &::-webkit-input-placeholder {
+            color: rgba(255, 255, 255, .3);  // 半透明
+        }
+    }
+
+    // 調整文字vertical position
+    .ant-input-password .ant-input {
+        height: 28px;
+    }
+
+    // 覆蓋眼睛圖示
+    .ant-input-password-icon.anticon, .ant-input-password-icon.anticon:hover {
+        color: #fff;
+    }
+
+    .captchaBox{
+        display: flex;
+        .captchaImg {
+            margin-left: 20px;
+            cursor: pointer;
+        }
+    }
+} 

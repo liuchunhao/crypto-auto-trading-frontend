@@ -1,0 +1,19 @@
+$color: #5e2a2a3f;               // use variables for colors
+body {
+  background-color: #5e2a2a3f;  // use variables for colors
+  user-select: none;            // disable text selection
+}
+img {
+  -webkit-user-drag: none;      // disable image dragging
+}
+ 
+// 首頁的樣式
+.demo-logo-vertical {
+    width: 150px;
+    height: 20px;
+    background-color: #5e2a2a3f;
+    background: url(../images/doge.png) no-repeat;
+    background-size: contain;
+    margin: 16px 16px 16px 16px;
+    float: left;
+}

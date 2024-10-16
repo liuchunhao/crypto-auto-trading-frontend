@@ -1,0 +1,27 @@
+// 組建形式的路由配置 (old version)
+import App from "../App"
+import Home from "../views/Home"
+import About from "../views/About"
+
+// 2 types of routing mode : BrowserRogter ( History mode ) , HashRouter( Hash mode )
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom"
+
+
+// const baseRouter = () =› {
+//   return ()
+//}
+
+// above is the same as below (funcaional style):
+const baseRouter = () => (
+    <BrowserRouter>
+    <Routes>
+        <Route path="/" element={<App/>}>
+            {/* redirect / to /home */}
+            <Route path="/" element={<Navigate to="/home" />}></Route>
+            <Route path="/home"  element={<Home />}></Route>
+            <Route path="/about" element={<About />}></Route>
+        </Route>
+    </Routes>
+    </BrowserRouter>
+)
+export default baseRouter

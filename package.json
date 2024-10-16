@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.9.4",
+    "axios": "^1.5.1",
+    "react-use-websocket": "^4.5.0",
+    "redux-thunk": "^2.4.2",
+    "reset-css": "^5.0.2",
+    "styled-components": "^6.1.1"
+  },
+  "devDependencies": {
+    "less": "^4.2.0"
+  }
+}

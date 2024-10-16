@@ -1,0 +1,6 @@
+node_modules
+.env
+nohub.out
+.vscode/
+lege-management/.env.development
+lege-management/.env.production
